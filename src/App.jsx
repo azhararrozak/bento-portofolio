@@ -35,7 +35,7 @@ function App() {
         <div className='text-gray-700 grid grid-rows-3 grid-flow-col gap-2 my-2'>
           <div className='border p-2 row-span-3'>
             <h2 className='text-xl font-bold'>High School</h2>
-            <img className='w-1/2' src='https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fstmadbtegal&psig=AOvVaw3oBocYPs_OpmHKRKI0mLrP&ust=1704265756799000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDkjLqTvoMDFQAAAAAdAAAAABAD' />
+            <img className='w-1/2' src='./SMKAdw.png' />
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos?</p>
           </div>
           <div className='border rounded-md p-2 row-span-3'>
@@ -43,7 +43,7 @@ function App() {
               <h2 className='text-xl font-bold'>University</h2>
               <div className='border rounded-full p-2'><GoArrowUpRight className='text-md' /></div>
             </div>
-            <img className='w-1/4' src='https://upload.wikimedia.org/wikipedia/id/thumb/0/09/Logo_Almamater_UPI.svg/800px-Logo_Almamater_UPI.svg.png' />
+            <img className='w-1/4' src='./UPI.png' />
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos?</p>
           </div>
           <div className='border p-2'>
