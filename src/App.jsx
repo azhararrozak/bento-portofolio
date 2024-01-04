@@ -70,8 +70,8 @@ function App() {
   </div>*/}
         </div>
 
-        <div className="text-gray-700 grid grid-rows-3 grid-cols-1 gap-2 my-2 sm:grid-cols-3">
-          <div className="border rounded-md p-4 row-span-3">
+        <div className="text-white grid grid-rows-3 grid-cols-1 gap-2 my-2 sm:grid-cols-3">
+          <div className='bg-center bg-cover bg-[url("./bg-smk.png")] rounded-md p-4 row-span-3'>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-bold">High School</h2>
               <Link to="http://smkn1adw.sch.id/fp/">
@@ -89,7 +89,7 @@ function App() {
               quos?
             </p>
           </div>
-          <div className="border rounded-md p-4 row-span-3">
+          <div className='bg-center bg-cover bg-[url("./bg-upi.png")] rounded-md p-4 row-span-3'>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-bold">University</h2>
               <Link to="https://www.upi.edu/">
