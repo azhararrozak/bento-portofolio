@@ -19,7 +19,6 @@ function App() {
           el: myRef.current,
           color: 0x434375,
           scale: 1.0,
-          scaleMobile: 1.0,
           minHeight: 50.0,
           points: 20.0,
           maxDistance: 17.0,
@@ -41,11 +40,8 @@ function App() {
             <h1 className="text-xl font-bold mb-4">
               Hello All, I'm Azhar Arrozak
             </h1>
-            <p className="text-md mb-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
-              autem magnam saepe ad illum, odit ut reiciendis debitis neque
-              velit ratione voluptas esse quasi rem vero explicabo in molestiae
-              eveniet.
+            <p className="text-md mb-6 text-justify">
+              Student at the University of Education Indonesia, majoring in Computer Science Education. His primary expertise lies in JavaScript programming. Throughout his studies, he has learned and mastered various frameworks and related technologies such as HTML, CSS, and JavaScript.
             </p>
             <div className="flex">
               <div className="rounded-full border mr-2 p-2 bg-gray-700">
@@ -81,7 +77,8 @@ function App() {
               </Link>
             </div>
             <div className="my-2 flex w-full justify-center items-center flex-col">
-              <img className="w-[6rem]" src="./SMKAdw.png" />
+              <div className="rounded-full bg-white "><img className="w-[6rem]" src="./SMKAdw.png" /></div>
+              
               <h3 className="font-bold py-2">SMKN 1 Adiwerna</h3>
             </div>
             <p className="text-sm text-justify">
@@ -100,7 +97,7 @@ function App() {
             </div>
             <div className="my-2 flex w-full justify-center items-center flex-col">
               <img className="w-[6rem]" src="./UPI.png" />
-              <h3 className="font-bold py-2">
+              <h3 className="font-bold text-sm py-2">
                 Universitas Pendidikan Indonesia
               </h3>
             </div>
@@ -131,13 +128,13 @@ function App() {
               <h3>Google Developer</h3>
               <h3>School Club</h3>
               <img src="./gdsc-logo.png" className="w-[6rem]" />
-              <p className="italic">2020-2021</p>
+              <p className="italic">Member in 2021 - Now</p>
             </div>
           </div>
         </div>
 
-        <div className="flex gap-2 flex-col sm:flex-row">
-          <div className="w-full sm:w-1/2 border p-2">
+        <div className="flex gap-2 flex-col sm:flex-row text-white">
+          <div className="w-full sm:w-1/2 rounded-md bg-gradient-to-t from-indigo-950 to-purple-500 p-4">
             <div className="flex">
               <img src="./dicoding.jpeg" className="w-[6rem] rounded-md" />
               <div className="flex flex-col justify-center ml-2">
@@ -182,7 +179,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-1/2 border p-2">
+          <div className="w-full sm:w-1/2 rounded-md bg-gradient-to-t from-indigo-950 to-green-500 p-4">
             <div className="flex">
               <img src="./goto.jpeg" className="w-[6rem] rounded-md" />
               <div className="flex flex-col justify-center ml-2">
