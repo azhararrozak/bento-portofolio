@@ -268,18 +268,38 @@ function App() {
               <h1>Projects</h1>
             </div>
 
-            <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 my-2">
-              <div className="row-span-2 border">
-                <h1>test</h1>
+            <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 my-2 text-white">
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./3.png")] h-[900px]'>
+                <div className="w-full h-full items-end flex justify-end p-3">
+                  <div className="flex items-center rounded-full border px-4 py-2">
+                    <p className="text-sm mr-[0.1rem]">Lihat Website</p>
+                    <GoArrowUpRight />
+                  </div>
+                </div>
               </div>
-              <div className="row-span-2 border">
-                <h1>test</h1>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./1.png")] h-[900px]'>
+                <div className="w-full h-full items-end flex justify-end p-3">
+                  <div className="flex items-center rounded-full border px-4 py-2">
+                    <p className="text-sm mr-[0.1rem]">Lihat Website</p>
+                    <GoArrowUpRight />
+                  </div>
+                </div>
               </div>
-              <div className="row-span-2 border">
-                <h1>test</h1>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./2.png")] h-[900px]'>
+                <div className="w-full h-full items-end flex justify-end p-3">
+                  <div className="flex  items-center rounded-full border px-4 py-2">
+                    <p className="text-sm mr-[0.1rem]">Lihat Website</p>
+                    <GoArrowUpRight />
+                  </div>
+                </div>
               </div>
-              <div className="row-span-2 border">
-                <h1>test</h1>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./4.png")] h-[900px]'>
+                <div className="w-full h-full items-end flex justify-end p-3">
+                  <div className="flex items-center rounded-full border px-4 py-2">
+                    <p className="text-sm mr-[0.1rem]">Lihat Website</p>
+                    <GoArrowUpRight />
+                  </div>
+                </div>
               </div>
             </div>
 
