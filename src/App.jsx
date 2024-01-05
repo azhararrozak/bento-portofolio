@@ -89,16 +89,13 @@ function App() {
               <div className="sm:w-1/4 w-full">
                 <img className="rounded-md w-full" src="./azhr.png" />
               </div>
-              {/*<div className='w-1/4 rounded-md bg-center bg-coverbg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKw5Oi70vdkN8sZ-I9_THkE3tCZu7pi3aSgg&usqp=CAU")]'>
-  
-  </div>*/}
             </div>
 
             <div
               id="about"
               className="text-white grid grid-rows-3 grid-cols-1 gap-2 my-2 sm:grid-cols-3"
             >
-              <div className='bg-center bg-cover bg-[url("./bg-smk.png")] rounded-md p-4 row-span-3'>
+              <div className='bg-center bg-cover bg-[url("bg-smk.png")] rounded-md p-4 row-span-3'>
                 <div className="flex justify-between items-center">
                   <h2 className="text-xl font-bold">High School</h2>
                   <Link to="http://smkn1adw.sch.id/fp/">
@@ -119,7 +116,7 @@ function App() {
                   Quisquam, quos?
                 </p>
               </div>
-              <div className='bg-center bg-cover bg-[url("./bg-upi.png")] rounded-md p-4 row-span-3'>
+              <div className='bg-center bg-cover bg-[url("bg-upi.png")] rounded-md p-4 row-span-3'>
                 <div className="flex justify-between items-center">
                   <h2 className="text-xl font-bold">University</h2>
                   <Link to="https://www.upi.edu/">
@@ -269,7 +266,7 @@ function App() {
             </div>
 
             <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 my-2 text-white">
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./3.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("3.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -277,7 +274,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./1.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("1.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -285,7 +282,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./2.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("2.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex  items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -293,7 +290,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("./4.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("4.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -315,7 +312,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='sm:w-2/3 w-full bg-cover rounded-md bg-[url("./bg-contact.png")] p-8 '>
+              <div className='sm:w-2/3 w-full bg-cover rounded-md bg-[url("bg-contact.png")] p-8 '>
                 <div className="p-4 text-white h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
                   <h1 className="font-bold text-center text-xl">
                     Say Hi to Me
