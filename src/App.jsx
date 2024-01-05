@@ -95,7 +95,7 @@ function App() {
               id="about"
               className="text-white grid grid-rows-3 grid-cols-1 gap-2 my-2 sm:grid-cols-3"
             >
-              <div className='bg-center bg-cover bg-[url("bg-smk.png")] rounded-md p-4 row-span-3'>
+              <div className="bg-center bg-cover bg-[url('../bg-smk.png')] rounded-md p-4 row-span-3">
                 <div className="flex justify-between items-center">
                   <h2 className="text-xl font-bold">High School</h2>
                   <Link to="http://smkn1adw.sch.id/fp/">
@@ -116,7 +116,7 @@ function App() {
                   Quisquam, quos?
                 </p>
               </div>
-              <div className='bg-center bg-cover bg-[url("bg-upi.png")] rounded-md p-4 row-span-3'>
+              <div className='bg-center bg-cover bg-[url("../bg-upi.png")] rounded-md p-4 row-span-3'>
                 <div className="flex justify-between items-center">
                   <h2 className="text-xl font-bold">University</h2>
                   <Link to="https://www.upi.edu/">
@@ -266,7 +266,7 @@ function App() {
             </div>
 
             <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 my-2 text-white">
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("3.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("../3.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
