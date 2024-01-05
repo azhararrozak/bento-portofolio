@@ -274,7 +274,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("1.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("../1.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -282,7 +282,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("2.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("../2.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex  items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -290,7 +290,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("4.png")] h-[900px]'>
+              <div className='row-span-2 rounded-md bg-cover bg-center bg-[url("../4.png")] h-[900px]'>
                 <div className="w-full h-full items-end flex justify-end p-3">
                   <div className="flex items-center rounded-full border px-4 py-2">
                     <p className="text-sm mr-[0.1rem]">Lihat Website</p>
@@ -312,7 +312,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='sm:w-2/3 w-full bg-cover rounded-md bg-[url("bg-contact.png")] p-8 '>
+              <div className='sm:w-2/3 w-full bg-cover rounded-md bg-[url("../bg-contact.png")] p-8 '>
                 <div className="p-4 text-white h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
                   <h1 className="font-bold text-center text-xl">
                     Say Hi to Me
