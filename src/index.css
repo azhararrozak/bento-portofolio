@@ -3,3 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.writing-vertical {
+    writing-mode: vertical-rl; /* Tulisan akan menjadi vertikal dari atas ke bawah */
+    text-orientation: upright; /* Membuat teks tetap tegak lurus */
+  }
+

@@ -1,29 +1,42 @@
 import React from "react";
 import { GoHomeFill } from "react-icons/go";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ handleScroll, active }) => {
   return (
-    <div className="border px-4 py-2 rounded-full">
-      <ul className="flex items-center">
+    <div className="border-gray-700 border px-4 py-2 rounded-full text-gray-700">
+      <ul className="flex items-center justify-center">
         <li className="mx-2">
-          <a href="/" className="text-blue-500 hover:text-blue-800">
-            <GoHomeFill />
-          </a>
+          <button
+            onClick={() => handleScroll("home")}
+            className={active === "home" ? "hover:text-blue-800 bg-yellow-200 px-4 py-1 rounded-full" : "hover:text-blue-800"}
+          >
+            All
+          </button>
         </li>
         <li className="mx-2">
-          <a href="/about" className="text-blue-500 hover:text-blue-800">
+          <button
+            onClick={() => handleScroll("about")}
+            className={active === "about" ? "hover:text-blue-800 bg-yellow-200 px-4 py-1 rounded-full" : "hover:text-blue-800"}
+          >
             About
-          </a>
+          </button>
         </li>
         <li className="mx-2">
-          <a href="/contact" className="text-blue-500 hover:text-blue-800">
+          <button
+            onClick={() => handleScroll("project")}
+            className={active === "project" ? "hover:text-blue-800 bg-yellow-200 px-4 py-1 rounded-full" : "hover:text-blue-800"}
+          >
             Project
-          </a>
+          </button>
         </li>
         <li className="mx-2">
-          <a href="/contact" className="text-blue-500 hover:text-blue-800">
+          <button
+            onClick={() => handleScroll("contact")}
+            className={active === "contact" ? "hover:text-blue-800 bg-yellow-200 px-4 py-1 rounded-full" : "hover:text-blue-800"}
+          >
             Contact
-          </a>
+          </button>
         </li>
       </ul>
     </div>
