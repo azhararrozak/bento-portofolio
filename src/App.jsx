@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { IoLogoJavascript } from "react-icons/io";
+import { TfiReload } from "react-icons/tfi";
 import {
   SiMongodb,
   SiExpress,
@@ -22,8 +23,10 @@ import {
 import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
 import { HashRouter as Router } from "react-router-dom";
+import textContent from "./data/textContent";
 
 function App() {
+  const [language, setLanguage] = useState('indonesia')
   const [vantaEffect, setVantaEffect] = useState(null);
   const [active, setActive] = useState("home");
   const myRef = useRef(null);
@@ -54,6 +57,10 @@ function App() {
     }
   };
 
+  const handleChangeLanguage = () => {
+    setLanguage(language === "english" ? "indonesia" : "english");
+  }
+
   return (
     <div className="App">
       <Router>
@@ -63,16 +70,16 @@ function App() {
           </header>
           <main className="px-8">
             <div className="flex-col flex gap-2 sm:flex-row">
-              <div className="sm:w-3/4 w-full rounded-md p-4 text-gray-700 bg-gradient-to-r from-lime-100 from-10% via-green-400 green-30% to-emerald-200 to-90%">
-                <h1 className="text-xl font-bold mb-4">
-                  Hello All, I'm Azhar Arrozak
+              <div className="sm:w-3/4 w-full rounded-md p-4 bg-center bg-cover bg-[url('../bg_intro.png')] text-white">
+                <div className="flex justify-end items-center w-full">
+                  <button onClick={handleChangeLanguage} className="border px-4 py-2 text-sm rounded-full flex items-center"><TfiReload className="mr-2" />{textContent.home[language].toggleButton}</button>
+                </div>
+
+                <h1 className="text-xl font-bold my-4">
+                {textContent.home[language].title}
                 </h1>
                 <p className="text-md mb-6 text-justify">
-                  Student at the University of Education Indonesia, majoring in
-                  Computer Science Education. His primary expertise lies in
-                  JavaScript programming. Throughout his studies, he has learned
-                  and mastered various frameworks and related technologies such
-                  as HTML, CSS, and JavaScript.
+                  {textContent.home[language].content}
                 </p>
                 <div className="flex">
                   <div className="rounded-full border mr-2 p-2 bg-gray-700">
@@ -97,7 +104,7 @@ function App() {
             >
               <div className="bg-center bg-cover bg-[url('../bg-smk.png')] rounded-md p-4 row-span-3">
                 <div className="flex justify-between items-center">
-                  <h2 className="text-xl font-bold">High School</h2>
+                  <h2 className="text-xl font-bold">{textContent.about[language].vocational.title}</h2>
                   <Link to="http://smkn1adw.sch.id/fp/">
                     <div className="border rounded-full p-2 hover:bg-white hover:text-gray-700">
                       <GoArrowUpRight className="text-md" />
@@ -109,16 +116,15 @@ function App() {
                     <img className="w-[6rem]" src="./SMKAdw.png" />
                   </div>
 
-                  <h3 className="font-bold py-2">SMKN 1 Adiwerna</h3>
+                  <h3 className="font-bold py-2">{textContent.about[language].vocational.name}</h3>
                 </div>
                 <p className="text-sm text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, quos?
+                  {textContent.about[language].vocational.content}
                 </p>
               </div>
               <div className='bg-center bg-cover bg-[url("../bg-upi.png")] rounded-md p-4 row-span-3'>
                 <div className="flex justify-between items-center">
-                  <h2 className="text-xl font-bold">University</h2>
+                  <h2 className="text-xl font-bold">{textContent.about[language].university.title}</h2>
                   <Link to="https://www.upi.edu/">
                     <div className="border rounded-full p-2 hover:bg-white hover:text-gray-700">
                       <GoArrowUpRight className="text-md" />
@@ -128,12 +134,11 @@ function App() {
                 <div className="my-2 flex w-full justify-center items-center flex-col">
                   <img className="w-[6rem]" src="./UPI.png" />
                   <h3 className="font-bold text-sm py-2">
-                    Universitas Pendidikan Indonesia
+                    {textContent.about[language].university.name}
                   </h3>
                 </div>
                 <p className="text-sm text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, quos?
+                  {textContent.about[language].university.content}
                 </p>
               </div>
               <div className="rounded-md p-2 bg-blue-500 text-white ">
